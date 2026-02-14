@@ -1,5 +1,5 @@
 global:
-  smtp_smarthost: 'localhost:587'
+  smtp_smarthost: 'mailhog:1025'
   smtp_from: 'alertmanager@example.com'
   smtp_require_tls: false
 
