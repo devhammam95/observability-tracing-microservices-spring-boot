@@ -20,7 +20,7 @@ public class OrderApplication {
 
 	@Bean
 	Logger.Level feignLoggerLevel() {
-		return Logger.Level.FULL; // This will print all outgoing headers to your console
+		return Logger.Level.FULL;
 	} 
 
 	@Bean
