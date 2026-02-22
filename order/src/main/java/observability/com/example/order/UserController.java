@@ -25,8 +25,6 @@ public class UserController {
     {
         System.out.println("otelTraceId=" + MDC.get("traceId"));
 
-        log.info("Di Dina"); 
-
         return productClient.getAllProducts();
     }
 
